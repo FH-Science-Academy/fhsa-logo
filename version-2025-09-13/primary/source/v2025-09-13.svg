@@ -39,13 +39,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showguides="true"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="-44.194173"
-     inkscape:cy="268.34702"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="144.42656"
+     inkscape:cy="190.74205"
      inkscape:window-width="2560"
-     inkscape:window-height="1009"
-     inkscape:window-x="1592"
-     inkscape:window-y="-8"
+     inkscape:window-height="1511"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:export-bgcolor="#ffffffff">
@@ -66,6 +66,64 @@
   </sodipodi:namedview>
   <defs
      id="defs1">
+    <inkscape:path-effect
+       origin="200,200"
+       starting_point="0,0"
+       effect="copy_rotate"
+       id="path-effect30"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       method="normal"
+       num_copies="2"
+       starting_angle="0"
+       rotation_angle="180"
+       gap="-0.01"
+       copies_to_360="true"
+       mirror_copies="false"
+       split_items="false"
+       link_styles="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect28"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="copy_rotate"
+       starting_point="0,0"
+       origin="199.99999,200"
+       id="path-effect22"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       method="normal"
+       num_copies="2"
+       starting_angle="0"
+       rotation_angle="180"
+       gap="-0.01"
+       copies_to_360="true"
+       mirror_copies="false"
+       split_items="false"
+       link_styles="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect18"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
     <inkscape:path-effect
        effect="copy_rotate"
        starting_point="0,0"
@@ -536,20 +594,28 @@
        inkscape:path-effect="#path-effect14"
        inkscape:original-d="m -110.7399,193.88225 c 10.821308,-31.90597 25.424212,-46.78192 39.47754,-46.65084 21.621867,0.20167 40.540732,32.89147 48.428815,88.4772" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:17;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:17;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:path-effect="#path-effect3;#path-effect5"
+       inkscape:original-d="m 200.00047,199.99977 c 0,0 27.38624,-85.34503 41.8516,-130.424093 8.52298,8.765833 16.62502,17.098728 24.65896,25.361587"
+       d="m 200.00047,199.99977 c 13.95053,-43.4747 27.38624,-85.34503 38.88041,-103.501645 11.49417,-18.156616 19.59621,-9.823719 27.63015,-1.560861 M 199.99955,200.00021 c -13.95053,43.4747 -27.38624,85.34503 -38.88041,103.50164 -11.49417,18.15662 -19.59621,9.82372 -27.63015,1.56087"
+       id="path1"
+       sodipodi:nodetypes="ccc"
+       inkscape:label="Integral" />
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 276.03306,127.57941 c 0.39201,11.51054 0.78403,23.02109 -11.88815,35.09118 -12.67217,12.0701 -38.40855,24.69976 -64.1449,37.3294 m -76.03307,72.4206 c -0.39201,-11.51054 -0.78403,-23.02109 11.88815,-35.09118 12.67217,-12.0701 38.40855,-24.69976 64.1449,-37.3294"
        id="path2"
        inkscape:path-effect="#path-effect4;#path-effect11"
        inkscape:original-d="m 276.03306,127.57941 c 0.39201,11.51054 0.78403,23.02109 1.17604,34.53163 -25.73636,12.62965 -51.47274,25.25931 -77.20909,37.88895"
        sodipodi:nodetypes="ccc"
-       inkscape:label="Tangent" />
+       inkscape:label="Tangent Cutter" />
     <path
        style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:17;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:path-effect="#path-effect3;#path-effect5"
-       inkscape:original-d="m 211.29595,164.40583 c 0,0 19.99487,-62.05358 30.55612,-94.830153 8.52298,8.765833 16.62502,17.098728 24.65896,25.361587"
-       d="m 211.29595,164.40583 c 10.18537,-31.61005 19.99487,-62.05358 29.53699,-74.05895 9.54211,-12.005371 17.64415,-3.672474 25.67809,4.590384 M 188.70407,235.59415 c -10.18537,31.61005 -19.99487,62.05358 -29.53699,74.05895 -9.54211,12.00537 -17.64415,3.67247 -25.67809,-4.59038"
-       id="path1"
+       d="m 276.03306,127.57941 c 0.39201,11.51054 0.78403,23.02109 -11.88815,35.09118 -12.67217,12.0701 -38.40855,24.69976 -64.1449,37.3294 m -76.03307,72.4206 c -0.39201,-11.51054 -0.78403,-23.02109 11.88815,-35.09118 12.67217,-12.0701 38.40855,-24.69976 64.1449,-37.3294"
+       id="path22"
+       inkscape:path-effect="#path-effect28;#path-effect30"
+       inkscape:original-d="m 276.03306,127.57941 c 0.39201,11.51054 0.78403,23.02109 1.17604,34.53163 -25.73636,12.62965 -51.47274,25.25931 -77.20909,37.88895"
        sodipodi:nodetypes="ccc"
-       inkscape:label="Integral" />
+       inkscape:label="Tangent" />
   </g>
 </svg>
