@@ -1,6 +1,6 @@
 # FHSS IMSA Logo
 
-![FHSA Logo](version-2026-01-13/primary/exports/logo-sa.png)
+![FHSA Logo](version-current/primary/exports/logo-sa.png)
 
 Overview
 --------
@@ -12,7 +12,7 @@ Repository structure
 
 - `primary/` — canonical source and export files for the main logo.
 - `variants/` — alternate color and layout versions (e.g., `black-white`, `inverse`).
-- `version-YYYY-MM-DD/` and `version-next/` — archived releases and work-in-progress versions.
+- `version-curent/` and `version-next/` — archived releases and work-in-progress versions.
 
 Quick usage
 -----------
