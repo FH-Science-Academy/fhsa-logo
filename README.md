@@ -34,4 +34,6 @@ See the repository `LICENSE` for licensing and usage terms.
 Contact
 -------
 
-For brand or usage questions, contact [ahn_j@surreyschools.ca](ahn_j@surreyschools.ca)
+For brand or usage questions, contact:
+- [ahn_j@surreyschools.ca](ahn_j@surreyschools.ca) - Program Coordinator
+- [tollyzhang@gmail.com](tollyzhang@gmail.com) - Logo Designer/Developer
