@@ -24,7 +24,9 @@ Contributing
 ------------
 
 To create a new version, duplicate the `version-next/` folder, name it appropriately and add changes to it.
-After publishing the new version, move the previous version into the `archive/` folder.
+After publishing the new version, move the previous version into the `archive/` folder and add a date stamp to it.
+> [!IMPORTANT]
+> Do not deviate from the `version-current/` naming convention or folder structure as external links rely on it.
 
 License
 -------
