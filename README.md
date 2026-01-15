@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains the official FH-Science-Academy (FHSA) logo source files, exports, and organized variants used across publications and digital assets. It stores multiple versions (primary, black/white, inverse) and historical releases in the `archive/` folders.
+This repository contains the official Fraser Heights Secondary School Integrated Math & Science Academy (FHSS IMSA) logo source files, exports, and organized variants used across publications and digital assets. It stores multiple versions (primary, black/white, inverse) and historical releases in the `archive/` folders.
 
 ## Repository structure
 
