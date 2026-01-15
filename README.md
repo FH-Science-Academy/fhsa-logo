@@ -1,4 +1,4 @@
-# FHSS IMSA Logo
+# FHSA Logo
 
 ![FHSA Logo](version-current/primary/exports/logo-sa.png)
 
@@ -10,7 +10,10 @@ This repository contains the official FH-Science-Academy (FHSA) logo source file
 
 - `primary/` — canonical source and export files for the main logo.
 - `variants/` — alternate color and layout versions (e.g., `black-white`, `inverse`).
-- `version-curent/` and `version-next/` — archived releases and work-in-progress versions.
+- `version-current/` — production-ready set; stable external links point here.
+- `version-next/` — in-progress changes before promotion to `version-current/`.
+- `version-template/` — clean starting point to seed a new working copy.
+- `archive/version-YYYY-MM-DD/` — archived releases (ISO date for ordering).
 
 ## Quick usage
 
@@ -33,4 +36,4 @@ See the repository `LICENSE` for licensing and usage terms.
 
 For brand or usage questions, contact [ahn_j@surreyschools.ca](ahn_j@surreyschools.ca)
 
-For develpment questions, contact [tollyzhang@gmail.com](tollyzhang@gmail.com)
+For development questions, contact [tollyzhang@gmail.com](tollyzhang@gmail.com)
