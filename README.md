@@ -27,9 +27,9 @@ To create a new version, first move the previous version into the `archive/` fol
 > [!IMPORTANT]
 > Do not deviate from the `version-current/` naming convention or folder structure as external links rely on it.
 > For each version, you must include:
-> - `version-current/primary/source/logo-sa.svg`
-> - `version-current/primary/exports/logo-sa.svg`
-> - `version-current/primary/exports/logo-sa.png`
+> - `primary/source/logo-sa.svg`
+> - `primary/exports/logo-sa.svg`
+> - `primary/exports/logo-sa.png`
 
 ## License
 
