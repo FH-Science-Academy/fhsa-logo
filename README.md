@@ -23,13 +23,7 @@ This repository contains the official FH-Science-Academy (FHSA) logo source file
 
 ## Contributing
 
-To create a new version, first move the previous version into the `archive/` folder and append a date stamp to it. Then, duplicate the `version-next/` folder, name it `version-current/` and add changes to it.
-> [!IMPORTANT]
-> Do not deviate from the `version-current/` naming convention or folder structure as external links rely on it.
-> For each version, you must include:
-> - `primary/source/logo-sa.svg`
-> - `primary/exports/logo-sa.svg`
-> - `primary/exports/logo-sa.png`
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the release workflow and required files.
 
 ## License
 
