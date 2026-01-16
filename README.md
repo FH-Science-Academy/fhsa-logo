@@ -15,6 +15,16 @@
 </tbody>
 </table>
 
+<p align="center">
+	<a href="https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/primary/exports/logo-sa.svg">Primary SVG</a>
+	·
+	<a href="https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/primary/exports/logo-sa.png">Primary PNG</a>
+	·
+	<a href="https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.svg">Inverse SVG</a>
+	·
+	<a href="https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.png">Inverse PNG</a>
+</p>
+
 ## Overview
 
 This repository contains the official Fraser Heights Secondary School Integrated Math & Science Academy (FHSS IMSA) logo source files, exports, and organized variants used across publications and digital assets. It stores multiple versions (primary, black/white, inverse) and historical releases in the `archive/` folders.
@@ -31,20 +41,6 @@ This repository contains the official Fraser Heights Secondary School Integrated
 
 - For production-ready exports, check `primary/exports/` or the matching `variants/*/exports/` folders.
 - For editable source files, see `primary/source/` or the relevant variant `*/source/` folder.
-
-### Downloads
-
-To download the latest logo files, use the links below (right-click and `Save As` to download):
-
-### `primary`
-
-- SVG: [Download](https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/primary/exports/logo-sa.svg)
-- PNG: [Download](https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/primary/exports/logo-sa.png)
-
-### `variant/inverse-black-white`
-
-- SVG: [Download](https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.svg)
-- PNG: [Download](https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.png)
 
 ## Contributing
 
