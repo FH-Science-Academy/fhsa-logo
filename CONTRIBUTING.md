@@ -1,6 +1,44 @@
 # Contributing to the FHSS IMSA Logo Repository
 
-This guide explains the expected folder workflow and the minimum files each version must include.
+This guide explains the expected folder workflow, required assets, and the tools you need to work with the logo files.
+
+## Git LFS (required for image assets)
+
+This repository tracks PNG and SVG logo files with Git LFS. Install Git LFS before adding, updating, or pulling image assets; otherwise you will only see pointer files and pushes will fail.
+
+Install and initialize (run once per machine):
+
+- Windows (PowerShell):
+	```powershell
+	winget install Git.GitLFS
+	git lfs install
+	```
+- macOS (Homebrew):
+	```bash
+	brew install git-lfs
+	git lfs install
+	```
+- Linux (apt example):
+	```bash
+	sudo apt install git-lfs
+	git lfs install
+	```
+
+After cloning
+
+```bash
+git clone <repo-url>
+cd fhsa-logo
+git lfs install
+git lfs pull
+```
+
+Checks
+
+- `git lfs ls-files` — list tracked assets
+- `git lfs status` — verify LFS state
+
+If you see small text pointer files starting with `version https://git-lfs.github.com/spec/v1`, run `git lfs pull` to fetch the real images.
 
 ## Workflow overview
 
