@@ -31,9 +31,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the release workflow and required fil
 ## License
 
 See the repository `LICENSE` for licensing and usage terms.
-
-## Contact
-
-For brand or usage questions, contact [ahn_j@surreyschools.ca](ahn_j@surreyschools.ca)
-
-For development questions, contact [tollyzhang@gmail.com](tollyzhang@gmail.com)
