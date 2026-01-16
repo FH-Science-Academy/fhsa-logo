@@ -1,4 +1,4 @@
-# FHSA Logo
+# FHSS IMSA Logo
 
 ![FHSA Logo](version-current/primary/exports/logo-sa.png)
 
