@@ -48,7 +48,7 @@ To download the latest logo files, use the links below (right-click and `Save As
 
 ## Contributing
 
-See `CONTRIBUTING.md` for the release workflow and required files.
+See `CONTRIBUTING.md` for the release workflow, required files, and CI checks.
 
 ## License
 

@@ -55,7 +55,7 @@ If you see small text pointer files starting with `version https://git-lfs.githu
 
 ## Required files (per version)
 
-Every version must contain all of these files:
+Every version must contain all of these files. GitHub Actions enforces this list and also checks the README download links resolve:
 
 - `primary/source/logo-sa.svg`
 - `primary/exports/logo-sa.svg`
