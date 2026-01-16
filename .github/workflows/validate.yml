@@ -1,0 +1,53 @@
+name: Validate assets and links
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository (with LFS)
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Verify required files exist
+        run: |
+          set -euo pipefail
+          required=(
+            "version-current/primary/source/logo-sa.svg"
+            "version-current/primary/exports/logo-sa.svg"
+            "version-current/primary/exports/logo-sa.png"
+          )
+          missing=0
+          for f in "${required[@]}"; do
+            if [[ ! -s "$f" ]]; then
+              echo "::error file=$f::Required file missing or empty: $f"
+              missing=1
+            fi
+          done
+          if [[ $missing -ne 0 ]]; then
+            echo "Required files missing or empty"
+            exit 1
+          fi
+
+      - name: Check README download links resolve
+        run: |
+          set -euo pipefail
+          urls=(
+            "https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/primary/exports/logo-sa.svg"
+            "https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/primary/exports/logo-sa.png"
+            "https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.svg"
+            "https://media.githubusercontent.com/media/FH-Science-Academy/fhsa-logo/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.png"
+          )
+          for url in "${urls[@]}"; do
+            echo "Checking $url"
+            if ! curl -I -f -L --max-time 30 "$url" >/dev/null; then
+              echo "::error title=Broken README link::$url"
+              exit 1
+            fi
+          done
