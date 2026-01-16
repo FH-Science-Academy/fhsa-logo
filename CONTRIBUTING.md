@@ -4,36 +4,9 @@ This guide explains the expected folder workflow, required assets, and the tools
 
 ## Git LFS (required for image assets)
 
-This repository tracks PNG and SVG logo files with Git LFS. Install Git LFS before adding, updating, or pulling image assets; otherwise you will only see pointer files and pushes will fail.
+This repository tracks PNG and SVG logo files with Git LFS. Install Git LFS before adding, updating, or pulling image assets; otherwise you will only see pointer files and pushes will fail. You can find a setup guide [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage).
 
-Install and initialize (run once per machine):
-
-- Windows (PowerShell):
-	```powershell
-	winget install Git.GitLFS
-	git lfs install
-	```
-- macOS (Homebrew):
-	```bash
-	brew install git-lfs
-	git lfs install
-	```
-- Linux (apt example):
-	```bash
-	sudo apt install git-lfs
-	git lfs install
-	```
-
-After cloning
-
-```bash
-git clone <repo-url>
-cd fhsa-logo
-git lfs install
-git lfs pull
-```
-
-Checks
+After installing Git LFS, run the following commands in your local repository to verify everything is set up correctly:
 
 - `git lfs ls-files` — list tracked assets
 - `git lfs status` — verify LFS state
