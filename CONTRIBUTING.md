@@ -25,6 +25,8 @@ If you see small text pointer files starting with `version https://git-lfs.githu
 2. Copy `version-template/` to `version-current/` to start new work.
 3. Make edits directly in `version-current/` until ready.
 4. Update links or docs if paths change.
+5. Commit and push your changes to the `dev` branch.
+6. When ready, merge `dev` into `main` to publish the new version.
 
 ## Required files (per version)
 
