@@ -22,7 +22,7 @@ This repository contains the official Fraser Heights Secondary School Integrated
 ## Repository structure
 
 - `primary/` — canonical source and export files for the main logo.
-- `variants/` — alternate color and layout versions (e.g., `black-white`, `inverse`).
+- `variants/` — alternate color and layout versions (e.g., `inverse-black-white`).
 - `version-current/` — production-ready set; stable external links point here.
 - `version-next/` — in-progress changes before promotion to `version-current/`.
 - `version-template/` — clean starting point to seed a new working copy.
@@ -34,13 +34,23 @@ This repository contains the official Fraser Heights Secondary School Integrated
 - For editable source files, see `primary/source/` or the relevant variant `*/source/` folder.
 
 ### Downloads
+
+To download the latest logo files, use the links below (right-click and `Save As` to download):
+
+### `primary`
+
 - SVG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/refs/heads/main/version-current/primary/exports/logo-sa.svg)
 - PNG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/refs/heads/main/version-current/primary/exports/logo-sa.png)
 
+### `variant/inverse-black-white`
+
+- SVG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/refs/heads/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.svg)
+- PNG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/refs/heads/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.png)
+
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the release workflow and required files.
+See `CONTRIBUTING.md` for the release workflow and required files.
 
 ## License
 
-See the repository `LICENSE` for licensing and usage terms.
+See `LICENSE` for licensing and usage terms.
