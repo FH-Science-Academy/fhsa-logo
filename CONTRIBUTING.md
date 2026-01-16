@@ -1,4 +1,4 @@
-# Contributing to the FHSA Logo Repo
+# Contributing to the FHSS IMSA Logo Repo
 
 This guide explains the expected folder workflow and the minimum files each version must include.
 
