@@ -1,6 +1,19 @@
 # FHSS IMSA Logo
 
-![FHSA Logo](version-current/primary/exports/logo-sa.png)
+<table>
+<thead>
+<tr>
+<th width="50%" align="center"><code>primary</code></th>
+<th width="50%" align="center"><code>variant/inverse-black-white</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="version-current/primary/exports/logo-sa.png" width="90%"></td>
+<td align="center"><img src="version-current/variants/inverse-black-white/exports/logo-sa-inverse.png" width="90%"></td>
+</tr>
+</tbody>
+</table>
 
 ## Overview
 
