@@ -23,8 +23,7 @@ This repository contains the official Fraser Heights Secondary School Integrated
 
 - `primary/` — canonical source and export files for the main logo.
 - `variants/` — alternate color and layout versions (e.g., `inverse-black-white`).
-- `version-current/` — production-ready set; stable external links point here.
-- `version-next/` — in-progress changes before promotion to `version-current/`.
+- `version-current/` — working copy and production-ready set; stable external links point here.
 - `version-template/` — clean starting point to seed a new working copy.
 - `archive/version-YYYY-MM-DD/` — archived releases (ISO date for ordering).
 

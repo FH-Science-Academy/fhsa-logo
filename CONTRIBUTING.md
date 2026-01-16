@@ -42,18 +42,16 @@ If you see small text pointer files starting with `version https://git-lfs.githu
 
 ## Workflow overview
 
-- `version-current/` holds the production-ready logo set.
-- `version-next/` is the active working copy for upcoming changes.
+- `version-current/` is the working copy and production-ready logo set.
 - `version-template/` is the clean starting point you copy to create a new working version.
 - `archive/version-YYYY-MM-DD/` stores prior releases (use ISO dates for clarity).
 
 ## Release steps
 
 1. Archive the existing `version-current/` to `archive/version-YYYY-MM-DD/`.
-2. Copy `version-template/` to `version-next/` (or directly to `version-current/` if no WIP stage is needed).
-3. Make edits in `version-next/` until ready.
-4. Promote `version-next/` to `version-current/` (replace/move the folder).
-5. Update links or docs if paths change.
+2. Copy `version-template/` to `version-current/` to start new work.
+3. Make edits directly in `version-current/` until ready.
+4. Update links or docs if paths change.
 
 ## Required files (per version)
 
