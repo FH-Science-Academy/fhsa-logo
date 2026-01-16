@@ -38,13 +38,13 @@ To download the latest logo files, use the links below (right-click and `Save As
 
 ### `primary`
 
-- SVG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/refs/heads/main/version-current/primary/exports/logo-sa.svg)
-- PNG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/refs/heads/main/version-current/primary/exports/logo-sa.png)
+- SVG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/main/version-current/primary/exports/logo-sa.svg)
+- PNG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/main/version-current/primary/exports/logo-sa.png)
 
 ### `variant/inverse-black-white`
 
-- SVG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/refs/heads/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.svg)
-- PNG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/refs/heads/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.png)
+- SVG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.svg)
+- PNG: [Download](https://raw.githubusercontent.com/FH-Science-Academy/fhsa-logo/main/version-current/variants/inverse-black-white/exports/logo-sa-inverse.png)
 
 ## Contributing
 
