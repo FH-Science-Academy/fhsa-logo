@@ -1,6 +1,6 @@
-# Contributing to the FHSS IMSA Logo Repository
+# Contributing
 
-This guide explains the expected folder workflow, required assets, and the tools you need to work with the logo files.
+Here are the expected folder workflow, required assets, and the tools you need to work with the logo files.
 
 ## Git LFS (required for image assets)
 
